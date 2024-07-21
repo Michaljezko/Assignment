@@ -1,0 +1,66 @@
+{"level":30,"time":"2024-07-21T22:37:42.607Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Listening on 55884"}
+(node:8928) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-07-21T22:37:42.757Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:42.757Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:42.760Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:42.760Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:42.766Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-07-21T22:37:42.766Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2024-07-21T22:37:42.993Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Changed active context"}
+{"level":30,"time":"2024-07-21T22:37:43.140Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Video path: undefined"}
+{"level":30,"time":"2024-07-21T22:37:43.141Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Changed active page"}
+{"level":30,"time":"2024-07-21T22:37:45.152Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method newPage"}
+{"level":30,"time":"2024-07-21T22:37:45.162Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method click"}
+{"level":30,"time":"2024-07-21T22:37:45.162Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Strict mode is enabled, find Locator with //*[@id=\"cc-acceptAll-btn\"]/span/span in page."}
+{"level":30,"time":"2024-07-21T22:37:45.246Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method click"}
+{"level":30,"time":"2024-07-21T22:37:45.251Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method click"}
+{"level":30,"time":"2024-07-21T22:37:45.252Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Strict mode is enabled, find Locator with //section[@id='landing-page-banner']//a[contains(text(), \"Search jobs\")] in page."}
+{"level":30,"time":"2024-07-21T22:37:45.331Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method click"}
+{"level":30,"time":"2024-07-21T22:37:45.340Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-07-21T22:37:45.340Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-07-21T22:37:45.425Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Video path: undefined"}
+{"level":30,"time":"2024-07-21T22:37:45.425Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Changed active page"}
+{"level":30,"time":"2024-07-21T22:37:48.605Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method newPage"}
+{"level":30,"time":"2024-07-21T22:37:48.610Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method click"}
+{"level":30,"time":"2024-07-21T22:37:48.610Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div[2]/div/div/div[1]/main/div/div[1]/ul/div[35]/li/div/a in page."}
+{"level":30,"time":"2024-07-21T22:37:49.556Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method click"}
+{"level":30,"time":"2024-07-21T22:37:49.560Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getElement"}
+{"level":30,"time":"2024-07-21T22:37:49.560Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Strict mode is enabled, find Locator with id=FabricTextField-3 in page."}
+{"level":30,"time":"2024-07-21T22:37:50.901Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method getElement"}
+{"level":30,"time":"2024-07-21T22:37:50.906Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getText"}
+{"level":30,"time":"2024-07-21T22:37:50.906Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Strict mode is enabled, find Locator with id=FabricTextField-3 in page."}
+{"level":30,"time":"2024-07-21T22:37:50.932Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Retrieved text for element id=FabricTextField-3 containing https://multitude.bamboohr.com/careers/1126"}
+{"level":30,"time":"2024-07-21T22:37:50.932Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method getText"}
+{"level":30,"time":"2024-07-21T22:37:50.943Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-07-21T22:37:50.943Z","pid":8928,"hostname":"LenovoIdeaPadG3","Take screenshot with options: ":{"path":"C:\\Users\\Administrator\\Desktop\\New\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-07-21T22:37:51.085Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-07-21T22:37:51.092Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:51.099Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:51.102Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:51.106Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:51.108Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Changed active context"}
+{"level":30,"time":"2024-07-21T22:37:51.109Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Changing current active page: page=e357137c-02cc-4301-8359-b10dad8563e4"}
+{"level":30,"time":"2024-07-21T22:37:51.109Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Changed active page"}
+{"level":30,"time":"2024-07-21T22:37:51.111Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:51.114Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:51.117Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-07-21T22:37:51.118Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-07-21T22:37:51.120Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-07-21T22:37:51.120Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-07-21T22:37:51.122Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Changing current active page: page=e357137c-02cc-4301-8359-b10dad8563e4"}
+{"level":30,"time":"2024-07-21T22:37:51.122Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Changed active page"}
+{"level":30,"time":"2024-07-21T22:37:51.126Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:51.128Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:51.132Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Changed active context"}
+{"level":30,"time":"2024-07-21T22:37:51.132Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Changing current active page: page=e357137c-02cc-4301-8359-b10dad8563e4"}
+{"level":30,"time":"2024-07-21T22:37:51.132Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Changed active page"}
+{"level":30,"time":"2024-07-21T22:37:51.136Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-07-21T22:37:51.143Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Removed page=0ff3534b-50d7-4c25-b223-b76c5df4b71f from context=45a93b7d-3e75-46fe-b8ca-6d218fae436b page stack"}
+{"level":30,"time":"2024-07-21T22:37:51.144Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Removed page=d8b039d8-4c25-4606-b36b-a90a6af10057 from context=45a93b7d-3e75-46fe-b8ca-6d218fae436b page stack"}
+{"level":30,"time":"2024-07-21T22:37:51.144Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Removed page=ae3a5815-22a1-41bf-b75c-b5b49de08b23 from context=45a93b7d-3e75-46fe-b8ca-6d218fae436b page stack"}
+{"level":30,"time":"2024-07-21T22:37:51.151Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-07-21T22:37:51.162Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:51.162Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-07-21T22:37:53.203Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-07-21T22:37:53.277Z","pid":8928,"hostname":"LenovoIdeaPadG3","msg":"End of node method closeAllBrowsers"}
