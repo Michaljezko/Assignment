@@ -1,107 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-07-22T00:37:41.971064" rpa="false" schemaversion="5">
-<suite id="s1" name="TestCase1" source="c:\Users\Administrator\Desktop\New\Tests\TestCase1.robot">
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-09-07T17:25:52.080078" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCase1" source="c:\Users\Administrator\Desktop\IT\robot_assignment\New\Tests\TestCase1.robot">
 <test id="s1-t1" name="Open Browser Page" line="7">
 <kw name="Open Webpage" owner="resources">
 <kw name="New Page" owner="Browser">
-<msg time="2024-07-22T00:37:45.155592" level="INFO">Successfully initialized new page object and opened url: https://www.multitude.com/careers</msg>
-<msg time="2024-07-22T00:37:45.158103" level="INFO">No browser and context was open. New browser and context was automatically opened when page is created.</msg>
+<msg time="2024-09-07T17:26:00.309112" level="INFO">Successfully initialized new page object and opened url: https://www.multitude.com/careers</msg>
+<msg time="2024-09-07T17:26:00.314630" level="INFO">No browser and context was open. New browser and context was automatically opened when page is created.</msg>
 <arg>${URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2024-07-22T00:37:42.762199" elapsed="2.395904"/>
+<status status="PASS" start="2024-09-07T17:25:54.444119" elapsed="5.870511"/>
 </kw>
-<status status="PASS" start="2024-07-22T00:37:42.762199" elapsed="2.395904"/>
+<status status="PASS" start="2024-09-07T17:25:54.443120" elapsed="5.871510"/>
 </kw>
 <kw name="Click Accept" owner="resources">
 <kw name="Click" owner="Browser">
-<msg time="2024-07-22T00:37:45.160113" level="INFO">Clicks the element '//*[@id="cc-acceptAll-btn"]/span/span'.</msg>
+<msg time="2024-09-07T17:26:00.315635" level="INFO">Clicks the element '//*[@id="cc-acceptAll-btn"]/span/span'.</msg>
 <arg>${CLICK_ACCEPT}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-07-22T00:37:45.160113" elapsed="0.088581"/>
+<status status="PASS" start="2024-09-07T17:26:00.315635" elapsed="0.083462"/>
 </kw>
-<status status="PASS" start="2024-07-22T00:37:45.159112" elapsed="0.089582"/>
+<status status="PASS" start="2024-09-07T17:26:00.315635" elapsed="0.083462"/>
 </kw>
 <kw name="Click Search" owner="resources">
 <kw name="Click" owner="Browser">
-<msg time="2024-07-22T00:37:45.250677" level="INFO">Clicks the element '//section[@id='landing-page-banner']//a[contains(text(), "Search jobs")]'.</msg>
+<msg time="2024-09-07T17:26:00.400073" level="INFO">Clicks the element '//section[@id='landing-page-banner']//a[contains(text(), "Search jobs")]'.</msg>
 <arg>${CLICK_SEARCH_JOBS}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-07-22T00:37:45.249678" elapsed="0.086601"/>
+<status status="PASS" start="2024-09-07T17:26:00.400073" elapsed="0.069165"/>
 </kw>
-<status status="PASS" start="2024-07-22T00:37:45.249678" elapsed="0.086601"/>
+<status status="PASS" start="2024-09-07T17:26:00.399097" elapsed="0.070141"/>
 </kw>
 <kw name="Open Webpage2" owner="resources">
 <kw name="New Page" owner="Browser">
-<msg time="2024-07-22T00:37:48.606747" level="INFO">Successfully initialized new page object and opened url: https://multitude.bamboohr.com/careers</msg>
+<msg time="2024-09-07T17:26:04.038470" level="INFO">Successfully initialized new page object and opened url: https://multitude.bamboohr.com/careers</msg>
 <arg>${URL2}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2024-07-22T00:37:45.338290" elapsed="3.269457"/>
+<status status="PASS" start="2024-09-07T17:26:00.470251" elapsed="3.568219"/>
 </kw>
-<status status="PASS" start="2024-07-22T00:37:45.337462" elapsed="3.270285"/>
+<status status="PASS" start="2024-09-07T17:26:00.470251" elapsed="3.569228"/>
 </kw>
 <kw name="Click Engineer" owner="resources">
 <kw name="Click" owner="Browser">
-<msg time="2024-07-22T00:37:48.608746" level="INFO">Clicks the element 'xpath=/html/body/div[2]/div/div/div[1]/main/div/div[1]/ul/div[35]/li/div/a'.</msg>
+<msg time="2024-09-07T17:26:04.040477" level="INFO">Clicks the element 'xpath=//a[contains(text(), 'Software Test Engineer') and following::text()[contains(., 'Bratislava, Slovakia')]]'.</msg>
 <arg>${CLICK_ENGINEER}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2024-07-22T00:37:48.608746" elapsed="0.949383"/>
+<status status="PASS" start="2024-09-07T17:26:04.039479" elapsed="0.942469"/>
 </kw>
-<status status="PASS" start="2024-07-22T00:37:48.608746" elapsed="0.949383"/>
+<status status="PASS" start="2024-09-07T17:26:04.039479" elapsed="0.942469"/>
 </kw>
 <kw name="Get Element" owner="Browser">
-<msg time="2024-07-22T00:37:50.903476" level="INFO">Locator found successfully.</msg>
+<msg time="2024-09-07T17:26:06.308316" level="INFO">Locator found successfully.</msg>
 <arg>${input_element}</arg>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns a reference to a Playwright [https://playwright.dev/docs/api/class-locator|Locator].</doc>
-<status status="PASS" start="2024-07-22T00:37:49.559125" elapsed="1.345351"/>
+<status status="PASS" start="2024-09-07T17:26:04.981948" elapsed="1.327368"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2024-07-22T00:37:50.934479" level="INFO">Text: 'https://multitude.bamboohr.com/careers/1126'</msg>
-<msg time="2024-07-22T00:37:50.934479" level="INFO">${actual_text} = https://multitude.bamboohr.com/careers/1126</msg>
+<msg time="2024-09-07T17:26:06.341179" level="INFO">Text: 'https://multitude.bamboohr.com/careers/1126'</msg>
+<msg time="2024-09-07T17:26:06.341179" level="INFO">${actual_text} = https://multitude.bamboohr.com/careers/1126</msg>
 <var>${actual_text}</var>
 <arg>${input_element}</arg>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2024-07-22T00:37:50.904476" elapsed="0.030003"/>
+<status status="PASS" start="2024-09-07T17:26:06.309316" elapsed="0.031863"/>
 </kw>
 <kw name="Get Url" owner="Browser">
-<msg time="2024-07-22T00:37:50.938478" level="INFO">${current_url} = https://multitude.bamboohr.com/careers/1126</msg>
+<msg time="2024-09-07T17:26:06.346180" level="INFO">${current_url} = https://multitude.bamboohr.com/careers/1126</msg>
 <var>${current_url}</var>
 <tag>Assertion</tag>
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the current URL.</doc>
-<status status="PASS" start="2024-07-22T00:37:50.935478" elapsed="0.003000"/>
+<status status="PASS" start="2024-09-07T17:26:06.342200" elapsed="0.003980"/>
 </kw>
 <kw name="Should Be Equal" owner="BuiltIn">
 <arg>${actual_text}</arg>
 <arg>${current_url}</arg>
 <doc>Fails if the given objects are unequal.</doc>
-<status status="PASS" start="2024-07-22T00:37:50.938478" elapsed="0.000998"/>
+<status status="PASS" start="2024-09-07T17:26:06.347178" elapsed="0.000000"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2024-07-22T00:37:51.085910" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2024-09-07T17:26:06.490465" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2024-07-22T00:37:50.939476" elapsed="0.147474"/>
+<status status="PASS" start="2024-09-07T17:26:06.348275" elapsed="0.143270"/>
 </kw>
-<status status="PASS" start="2024-07-22T00:37:42.759215" elapsed="8.328694"/>
+<status status="PASS" start="2024-09-07T17:25:54.440120" elapsed="12.051425"/>
 </test>
 <doc>Verify Text Equality</doc>
-<status status="PASS" start="2024-07-22T00:37:41.976063" elapsed="9.180465"/>
+<status status="PASS" start="2024-09-07T17:25:52.088684" elapsed="14.460471"/>
 </suite>
 <statistics>
 <total>

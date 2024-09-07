@@ -7,7 +7,7 @@ Library   Browser
 ${URL}                      https://www.multitude.com/careers 
 ${CLICK_ACCEPT}             //*[@id="cc-acceptAll-btn"]/span/span  
 ${CLICK_SEARCH_JOBS}        //section[@id='landing-page-banner']//a[contains(text(), "Search jobs")]
-${CLICK_ENGINEER}           xpath=/html/body/div[2]/div/div/div[1]/main/div/div[1]/ul/div[35]/li/div/a
+${CLICK_ENGINEER}           xpath=//a[contains(text(), 'Software Test Engineer') and following::text()[contains(., 'Bratislava, Slovakia')]]
 ${URL2}                     https://multitude.bamboohr.com/careers 
 ${input_element}            id=FabricTextField-3    
 
